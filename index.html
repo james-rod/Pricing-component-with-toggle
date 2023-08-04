@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+   
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Josefin+Sans:wght@300;400;600&family=Libre+Franklin:wght@300;600;700&family=Manrope:wght@800&family=Mina&family=Montserrat:wght@500;700&family=Outfit&family=Overpass&family=Roboto:wght@400;700&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="images/bg-bottom.svg" alt="bottom-Img" class="bottom-Img">
+    
+    <img src="images/bg-top.svg" alt="top_img" class="top-Img">
+    
+    <div class="pricingTitle">
+      <h1 class="title">Our Pricing</h1>
+      <div class="toggle-container">
+        <span class="text-toggle">Annually</span>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider round"></span>
+          </label>
+        <span class="text-toggle">Monthly</span>
+      </div>
+    </div>
+
+  <div class="outer-container-desktop outer-container-mobile">
+
+    <div class="flex One">
+      <h3 class="basic-text">Basic</h3>
+      <h1 class="price-Monthly-Grey" id="basic">&dollar;19.99 </h1> 
+        <span class="underline-border"></span>
+          <p class="text-Color">500 GB Storage</p>
+        <span class="underline-border"></span>
+          <p class="text-Color">2 Users Allowed</p>
+        <span class="underline-border"></span>
+          <p class="text-Color">Send up to 3 GB</p>
+        <span class="underline-border"></span>
+
+        <button class="btn btn-design-One">Learn More</button>
+    </div>
+
+    <div class="flex Two">
+      <h3 class="professional-text">Professional</h3>
+       <h1 class="price-Monthly-White" id="professional">&dollar;24.99</h1> 
+        <span class="underline-border"></span>
+          <p class="white-text">1 TB Storage</p>
+        <span class="underline-border"></span>
+          <p class="white-text">5 Users Allowed</p>
+        <span class="underline-border"></span>
+          <p class="white-text">Send up to 10 GB</p>
+        <span class="underline-border"></span>
+        <button class="btn btn-design-Two">Learn More</button>
+    </div>
+
+    <div class="flex Three">
+      <h3 class="master-text">Master</h3>
+       <h1 class="price-Monthly-Grey" id="master">&dollar;39.99 </h1> 
+        <span class="underline-border"></span>
+         <p class="text-Color">2 TB Storage</p>
+        <span class="underline-border"></span>
+         <p class="text-Color">10 Users Allowed</p>
+       <span class="underline-border"></span>
+         <p class="text-Color">Send up to 20 GB</p>
+        <span class="underline-border"></span>
+        <button class="btn btn-design-Three">Learn More</button>
+    </div>
+
+  </div>
+
+  <div class="img-Top-Container"></div>
+
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/james-rod">James Flores</a>.
+  </div>
+</body>
+</html>
